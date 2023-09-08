@@ -1,0 +1,15 @@
+/* Online Java Compiler and Editor */
+import java.util.Scanner;
+public class UserInput{
+     public static void main(String []args){
+     Scanner obj = new Scanner(System.in);
+     System.out.println("Enter first number:");
+     int obj1 = obj.nextInt();
+ 
+     
+     System.out.println("enter second number:");
+      int obj3 = obj.nextInt();
+      
+    System.out.println(obj1+obj3);
+     }
+}
